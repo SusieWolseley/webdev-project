@@ -1,17 +1,92 @@
 <html>
-    <head>
-        <title>Susie's Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    </head>
 
-    <body>
-        <h1>Portfolio</h1>
-        <p>I have completed projects in a variety of coding langauges</p>
-        
-        <h2>Python</h2>
-        <p>Cards for Python projects (embedded systems)</p>
-        <h2>Java</h2>
-        <p>Cards for Java projects (software development)</p>
-    </body>
+<head>
+    <title>Susie's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Portfolio.html">My Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <h1>Portfolio</h1>
+            <p>I have completed projects in a variety of coding langauges</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Python</h2>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Raspberry Pi timer</h3>
+                        <p class="card-text">The Raspberry Pi Pico started a timer when a button was pressed and would send a signal to a secondary Raspeberry Pi Pico which used an LED and speaker to signal that the timer had finished. The first Raspberry Pi Pico was connected to a website which allowed to user to select a colour which would be used to this Raspberry Pi to signal the progressed of the timer through a LED light ring.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Morse Code</h3>
+                        <p class="card-text">The user could enter text. The program would then display this text as morse code using the intergrated LED on the Raspberry Pi Pico.</p>
+                        <img src="../Project info/Morse Code Project.png" height=175 alt="A section of a code file">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <h2>Java</h2>
+
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Plant Species Database</h3>
+                        <p class="card-text">Using the terminal, a user was able to create a database, add new plant species to this database and find information about specific plant species they had stored.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Project Nova</h3>
+                        <p class="card-text">This a video game intended to be played by 2 players. The players would take turns clicking on squares and recieve feedback at what they found at that square. Whichever player found the most creatures before the game ended won.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
