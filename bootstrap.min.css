@@ -399,7 +399,8 @@ address {
 }
 ol,
 ul {
-  padding-left:2rem
+  padding-left:2rem;
+  font-size: 20px
 }
 dl,
 ol,
@@ -3901,7 +3902,7 @@ fieldset:disabled .btn {
   margin-bottom: 50px;
   --bs-navbar-padding-x:0;
   --bs-navbar-padding-y:1rem;
-  --bs-navbar-color:rgba(var(--bs-emphasis-color-rgb), 0.65);
+  --bs-navbar-color:rgba(var(--bs-emphasis-color-rgb), 0.50);
   --bs-navbar-hover-color:rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color:rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color:rgba(var(--bs-emphasis-color-rgb), 1);
